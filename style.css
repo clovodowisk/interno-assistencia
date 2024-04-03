@@ -1,0 +1,81 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333; /* Texto principal */
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+/* Estilo para os cartões */
+.card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+/* Estilo para a lista de grupos */
+.list-group-item {
+    border: none;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Estilo para botões */
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para mensagens de erro */
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
